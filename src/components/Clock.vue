@@ -1,6 +1,6 @@
 <template>
   <div class="clock">
-    {{ time }}
+    {{ now }}
   </div>
 </template>
 
@@ -8,12 +8,12 @@
   export default {
     data() {
       return {
-        time: new Date(),
+        now: Date.now(),
       };
     },
     methods: {
       getClockTime() {
-        this.time = new Date();
+        this.now = Date.now();
       },
       tick() {
         this.getClockTime();
