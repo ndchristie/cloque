@@ -23,6 +23,6 @@ describe('Clock.vue', () => {
   it('should show a localized clock', () => {
     const vm = new Constructor().$mount();
     expect(vm.$el.textContent)
-      .to.match(/\d{2}:\d{2}:\d{2}\s[AP]m/ig);
+      .to.match(/\d{1,2}:\d{2}:\d{2}\s[ap]m/ig);
   });
 });
