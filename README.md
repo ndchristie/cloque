@@ -1,4 +1,4 @@
-# cloque
+# cloque [![Build Status](https://travis-ci.org/ndchristie/cloque.svg?branch=master)](https://travis-ci.org/ndchristie/cloque)
 
 > A simple clock app powered by Vue
 
